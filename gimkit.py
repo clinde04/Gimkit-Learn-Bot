@@ -10,11 +10,11 @@ from gimkit_question import gimkit_question
 
 options = Options() 
 options.add_argument("--no-sandbox")
-options.add_argument("--headless")
+# options.add_argument("--headless")
 options.add_argument("--disable-gpu")
 
 
-chromedriver_location = "/workspace/Gimkit-Learn-Bot/chromedriver"
+chromedriver_location = "chromedriver"
 driver = webdriver.Chrome(chromedriver_location, options=options)
 wait = WebDriverWait(driver, 10)
 
