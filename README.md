@@ -5,4 +5,12 @@ A Bot that plays and learns the educational game Gimkit.
 Intructions: 
 
 Go to: https://repl.it/@CollinLinde/Gimkit-Learn-Bot#README.md
-Don't hit Run, type ./bot.py {game code} {name used for the bot player}.
+Then hit Run and put in the info.
+
+If you want to see what the bot is doing, comment out the following line in gimkit.py :
+options.add_argument("--headless")
+
+so put a # in front of it ;) P.S it is really glitchy and probobaly won't even work so I would recomend leaving it in there!
+
+
+Or you can just download the files and skip the whole repl.it thing.

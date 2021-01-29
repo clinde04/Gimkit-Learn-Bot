@@ -8,10 +8,12 @@ if __name__ == '__main__':
   if os.environ.get("CODE") != None:
     code = os.environ.get("CODE")
   else:
-    code = sys.argv[1]
+    codeinput = input('Enter the game code: ')
+    code = codeinput
   if os.environ.get("NAME") != None:
     name = os.environ.get("NAME")
   else:
-    name = sys.argv[2]
+    nameinput = input('What name would you like to use:')
+    name = nameinput
   join_game(code, name)
   play()
