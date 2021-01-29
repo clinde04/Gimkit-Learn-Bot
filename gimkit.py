@@ -14,7 +14,7 @@ options.add_argument("--headless")
 options.add_argument("--disable-gpu")
 
 
-chromedriver_location = "/usr/bin/chromedriver"
+chromedriver_location = "/workspace/Gimkit-Learn-Bot/chromedriver"
 driver = webdriver.Chrome(chromedriver_location, options=options)
 wait = WebDriverWait(driver, 10)
 
