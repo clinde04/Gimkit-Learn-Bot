@@ -4,7 +4,7 @@ A Bot that plays and learns the educational game Gimkit.
 
 Intructions: 
 
-Go to: https://repl.it/@CollinLinde/Gimkit-Learn-Bot#README.md
+Go to: https://repl.it/@CollinLinde/Gimkit-Bot#gimkit.py
 Then hit Run and put in the info.
 
 If you want to see what the bot is doing, comment out the following line in gimkit.py :
