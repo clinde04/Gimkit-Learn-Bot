@@ -7,4 +7,4 @@ Intructions:
 1) Figure ur life out
 2) Get a job
 3) Go to https://repl.it/@CollinLinde/Gimkit-Learn-Bot
-4) Hit dat fancy Run button
+4) Hit dat fancy green button
