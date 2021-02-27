@@ -24,3 +24,5 @@ streak_level_text = "/html/body/div[1]/div/div/div[2]/div[1]/div/div/div[2]/div/
 streak_level_money_text = "/html/body/div[1]/div/div/div[2]/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div"
 buy_button = "/html/body/div[1]/div/div/div[2]/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div"
 continue_to_questions_button = "/html/body/div[3]/div/div/div[4]/div"
+
+clap_xpath = "/html/body/div[1]/div/div/div[2]/div[1]/div/div/div[2]/div/div/div/div[2]/div/div/div/div"

@@ -8,9 +8,11 @@ from random import uniform
 from xpaths import *
 from gimkit_question import gimkit_question
 
+
+
 options = Options() 
 options.add_argument("--no-sandbox")
-options.add_argument("--headless")
+options.add_argument("-headless")
 options.add_argument("--disable-gpu")
 
 
@@ -96,6 +98,8 @@ def answer_question():
 def shop():
   global money
   global next_streak_level_money
+  global next_money_per_q_level_money
+
   global streak_level
   if streak_level < 10:
     if money >= next_streak_level_money:
@@ -110,23 +114,28 @@ def shop():
       clicker(buy_button)
       clicker(continue_to_questions_button)
       streak_level += 1
-
 def delay():
   sleep_time = uniform(0.5, 1.5)
   print(f"Sleeping for {str(round(sleep_time,3))}s")
   sleep(sleep_time)
   print("Resuming")
 
+
+
 def play():
   global money
   WebDriverWait(driver, 300).until(EC.element_to_be_clickable((By.XPATH, three_lines_button)))
   print("Game is starting...")
+  to_shop = answer_question()
+  
+
+
   while True:
-    money = get_money()
-    print(f"Money: ${money}")
-    to_shop = answer_question()
-    if to_shop == 0:
-      shop()
-    delay()
+      money = get_money()
+      print(f"Money: ${money}")
+      to_shop = answer_question()
+      if to_shop == 0:
+        shop()
+      delay()
     # handle end of game
     # claps

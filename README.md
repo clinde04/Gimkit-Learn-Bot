@@ -1,7 +1,10 @@
 # Gimkit-Learn-Bot
-
 A Bot that plays and learns the educational game Gimkit.
 
-Intructions:
 
-Go to: https://repl.it/@CollinLinde/Gimkit-Bot#gimkit.py Then hit Run and put in the game info.
+Intructions: 
+
+1) Figure ur life out
+2) Get a job
+3) Go to https://repl.it/@CollinLinde/Gimkit-Learn-Bot
+4) Hit dat fancy Run button
